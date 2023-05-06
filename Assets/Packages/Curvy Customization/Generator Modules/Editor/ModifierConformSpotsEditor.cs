@@ -1,14 +1,7 @@
-using System;
 using UnityEngine;
 using UnityEditor;
-using System.Collections.Generic;
 using FluffyUnderware.Curvy.Generator;
 using FluffyUnderware.Curvy.Generator.Modules;
-using FluffyUnderware.DevToolsEditor;
-using FluffyUnderware.DevTools.Extensions;
-using FluffyUnderware.DevToolsEditor.Extensions;
-using UnityEditorInternal;
-using FluffyUnderware.Curvy;
 
 namespace FluffyUnderware.CurvyEditor.Generator.Modules
 {
