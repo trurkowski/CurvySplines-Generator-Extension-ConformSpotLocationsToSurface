@@ -1,5 +1,7 @@
 # CurvySplines Generator Extension - Conform Spot Locations To Surface
 
+![Recording 2023-05-06 at 14 24 46](https://user-images.githubusercontent.com/13140865/236643147-b1450669-f86d-483e-8e65-7cf0004b070a.gif)
+
 ## How to use
 
 1. Place a spline some distance above the surface you wish to project objects onto
@@ -9,7 +11,7 @@
 
 ![image](https://user-images.githubusercontent.com/13140865/236643227-7ae5aa32-7306-4473-a0c3-50d2a182d862.png)
 
-![Recording 2023-05-06 at 14 24 46](https://user-images.githubusercontent.com/13140865/236643147-b1450669-f86d-483e-8e65-7cf0004b070a.gif)
+
 
 ## What it does
 
