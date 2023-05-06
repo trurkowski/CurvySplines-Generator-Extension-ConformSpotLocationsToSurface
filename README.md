@@ -5,7 +5,7 @@
 ## How to use
 
 1. Place a spline some distance above the surface you wish to project objects onto
-2. Set up objects along path using 
+2. Set up objects along path using "Create Volume Spots"
 3. Connect any spot data input to "Conform Spot" Node, and connect output to spawn objects node.
 4. Assign direction, max distance and collision layers.
 
