@@ -1,29 +1,6 @@
 using UnityEngine;
-using System;
-using FluffyUnderware.Curvy.Pools;
 using FluffyUnderware.DevTools;
-using ToolBuddy.Pooling.Collections;
-using MLSpace;
 using System.Collections.Generic;
-using System.Collections;
-using UnityEngine.UI;
-
-/* Curvysplines Tool Description
-* Curvysplines has an object placement assigner with randomization or sequence settings which places a customizable list of objects offset along a spline.
-
-* It uses a node graph editor, and you can feed spline and object data through it and modify the data in several ways. 
-* You can 
-*   - Place prefabs
-*   - Place meshes
-*   - Deform meshes
-*   - Generate new meshes procedurally with a crossection and cap system
-*   - Control/animate objects along a path
-
-* For example, if you want to create a slightly randomized line of trees alongside a path in a forest setting, transposed relative to the spline path, this allows you to do that with control over several parameters and randomization options.
-
-* it is very easily extendable when you gain some understanding of how it manages data for optimization purposes.
-* The tool developer is responsive to requests and questions - documentation is decent, and the code is fairly well commented.
-*/
 
 /* Custom Tool Extension Description
  * use case: Align randomized object positions on uneven surfaces, allowing for changes to that surface after the fact (i.e. when destructively editing a terrain)
