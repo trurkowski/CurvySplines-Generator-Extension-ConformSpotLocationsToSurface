@@ -155,7 +155,7 @@ namespace FluffyUnderware.Curvy.Generator.Modules
         {
             Count = 0;
             SimulatedSpots = new CGSpots();
-            OutSpots.SetData(SimulatedSpots);
+            OutSpots.SetDataToElement(SimulatedSpots);
         }
 
 
@@ -200,7 +200,7 @@ namespace FluffyUnderware.Curvy.Generator.Modules
             }
 
             //Send the new data to the next node.
-            OutSpots.SetData(new CGSpots(outSpots));
+            OutSpots.SetDataToElement(new CGSpots(outSpots));
             SimulatedSpots = new CGSpots(outSpots);
         }
 
